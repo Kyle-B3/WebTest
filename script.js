@@ -1,4 +1,4 @@
-const words = ['apple', 'banana', 'grape', 'orange'];
+const words = ['apple', 'banana', 'grape', 'orange', 'Hello World!'];
 let currentWordIndex = 0;
 
 const wordDisplay = document.getElementById('word-display');
