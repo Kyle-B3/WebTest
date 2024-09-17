@@ -1,11 +1,77 @@
+/* Basic body styling with fun background color */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
     background-color: #f0f8ff;
-    padding: 20px;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
 }
 
-input {
-    font-size: 20px;
-    padding: 10px;
+/* Center and style the game area */
+#game-area {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 3px solid #ffcc00;
 }
+
+/* Style the heading */
+h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #ff6f61;
+}
+
+/* Word display styling */
+#word-display {
+    font-size: 24px;
+    color: #008080;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Input field styling with fun color changes */
+#input-field {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ffcc00;
+    outline: none;
+    width: 80%;
+    transition: all 0.3s ease;
+}
+
+/* Add some transition effects for focus */
+#input-field:focus {
+    border-color: #ff6f61;
+    box-shadow: 0px 0px 5px rgba(255, 111, 97, 0.6);
+}
+
+/* Result message styling */
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #008000;
+}
+
+/* Button styling (if you add a start/reset button later) */
+button {
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #ff6f61;
+}
+
