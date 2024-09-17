@@ -1,11 +1,20 @@
-/* Basic body styling with fun background color */
+/* Basic body styling with fun background color and animation */
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: #f0f8ff;
+    background: linear-gradient(-45deg, #f0f8ff, #ffcc00, #ff6f61, #008080);
+    background-size: 400% 400%;
+    animation: gradientBackground 10s ease infinite;
     color: #333;
     text-align: center;
     padding: 50px;
     margin: 0;
+}
+
+/* Background animation */
+@keyframes gradientBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 /* Center and style the game area */
