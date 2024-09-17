@@ -17,7 +17,7 @@ inputField.addEventListener('input', function() {
             setNewWord();
             inputField.value = '';
         } else {
-            result.textContent = 'You finished all the words!';
+            result.textContent = 'You finished all the words! Hello World!';
         }
     }
 });
