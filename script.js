@@ -27,7 +27,7 @@ inputField.addEventListener('input', function() {
                 inputField.value = '';  // Clear input field for the next word
             }, 500);  // Add slight delay for user to see "Correct!" message
         } else {
-            result.textContent = 'You finished all the words! The last word was: Hello World!';
+            result.textContent = 'You finished all the words! Congrats!';
             result.style.color = '#ff6f61';  // Red for final message
         }
     } else {
