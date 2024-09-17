@@ -8,7 +8,13 @@ const result = document.getElementById('result');
 
 // Function to set the current word in the display
 function setNewWord() {
-    wordDisplay.textContent = `Type this word: ${words[currentWordIndex]}`;
+    // Check if the current word is "Hello World!"
+    if (words[currentWordIndex] === 'Hello World!') {
+        wordDisplay.textContent = `Type these words: ${words[currentWordIndex]}`;
+    } else {
+        wordDisplay.textContent = `Type this word: ${words[currentWordIndex]}`;
+    }
+    
     inputField.style.borderColor = '#ffcc00';  // Reset input border color
     result.textContent = '';  // Clear previous result message
 }
